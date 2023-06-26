@@ -11,6 +11,8 @@
 body{
 	margin: 0px;
 	background-color: var(--DaiPink);
+
+	font-family: 'Varela Round', sans-serif;
 }
 
 .header{
@@ -26,10 +28,16 @@ body{
 	justify-content: space-between;
 }
 
+.header > .links{
+	padding-top:10px;
+}
+
 .header a{
-	padding-left: 10px;
+	padding-left: 10px;	
 
 }
+
+
 
 .main{
 	background-image:url("../assets/daibg.jpg");
@@ -51,6 +59,10 @@ body{
 
 }
 
+h1{
+	font-family: 'Pacifico', cursive;
+}
+
 #profileimg{
-	height:75%;
+	height:70%;
 }
