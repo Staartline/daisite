@@ -77,6 +77,8 @@ h1{
 
 .footer{
 	display:flex;
+
+	width: 100%;
 	background-color: var(--DaiPink);
 	justify-content: center;
 	align-items: center;
@@ -93,7 +95,10 @@ h1{
 	padding-left: 0px;
 }
 
-
+a{
+	color:var(--DaiWhite);
+	text-decoration: none;
+}
 @media(max-width: 600px){
 	#profileimg{
 		display:none;
