@@ -11,7 +11,10 @@
 body{
 	margin: 0px;
 	background-color: var(--DaiPink);
+	width: 100%;
 
+	overflow: hidden;
+	overflow-y:scroll;
 	font-family: 'Varela Round', sans-serif;
 }
 
@@ -30,6 +33,7 @@ body{
 
 .header > .links{
 	padding-top:10px;
+	padding-right:10px;
 	width: 75%;
 	text-align: right;
 }
