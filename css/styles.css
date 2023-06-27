@@ -30,6 +30,8 @@ body{
 
 .header > .links{
 	padding-top:10px;
+	width: 75%;
+	text-align: right;
 }
 
 .header a{
@@ -65,4 +67,15 @@ h1{
 
 #profileimg{
 	height:70%;
+}
+
+
+@media(max-width: 600px){
+	#profileimg{
+		display:none;
+	}
+	.buttonselect{
+		display: none;
+	}
+
 }
