@@ -16,6 +16,7 @@ body{
 	overflow: hidden;
 	overflow-y:scroll;
 	font-family: 'Varela Round', sans-serif;
+	font-size: 1.25rem;
 }
 
 .header{
@@ -44,7 +45,6 @@ body{
 }
 
 
-
 .main{
 	background-image:url("../assets/daibg.jpg");
 	background-size: cover;
@@ -67,10 +67,34 @@ body{
 
 h1{
 	font-family: 'Pacifico', cursive;
+	color: var(--DaiDarkRed);
+	font-size: 2.5rem;
+}
+
+h2{
+	color:var(--DaiBlack);
+}
+
+p{
+	color: var(--DaiBlack);
 }
 
 #profileimg{
-	height:70%;
+	height:60%;
+}
+
+button{
+	background-color: transparent;
+	font-size: 1.25rem;
+	border-radius: 12px;
+	border:solid 3px var(--DaiWhite);
+	color:var(--DaiWhite);
+
+}
+
+button:hover{
+		border:solid 3px var(--DaiGold);
+		color:var(--DaiGold);
 }
 
 #mediaimg{
@@ -84,6 +108,7 @@ h1{
 
 	width: 100%;
 	background-color: var(--DaiPink);
+	color:var(--DaiBlack);
 	justify-content: center;
 	align-items: center;
 
@@ -102,6 +127,9 @@ h1{
 a{
 	color:var(--DaiWhite);
 	text-decoration: none;
+}
+a:hover{
+	color:var(--DaiGold);
 }
 @media(max-width: 600px){
 	#profileimg{
